@@ -60,9 +60,7 @@ public class Vetor {
 		if(this.tamanho>0) {
 			s.append(this.elementos[this.tamanho-1]);
 		}
-		
-		s.append("]");
-		return  s.toString();
+		return  Arrays.toString(elementos);
 	}
 	
 }

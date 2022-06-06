@@ -62,7 +62,7 @@ public class Vetor {
 		}
 		
 		s.append("]");
-		return  s.toString();
+		return  Arrays.toString(elementos);
 	}
 	
 }
